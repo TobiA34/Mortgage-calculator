@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root {
+    --lime:#D8DB2F;
+    --slate-900:#133041;
+    --slate-700: #4E6E7E;
+    --slate-500: #6B94A8;
+    --slate-300: #9ABED5;
+    --slate-100: #E4F4FD;
+    --white: #FFFFFF;
+    --red: #D73328;
+    
+    --fiveH: 40px;
+    --fourH: 32px;
+    --threeH: 24px;
+    --twoH: 16px;
+    --oneFh: 12px;
+    --oneH: 8px;
+}
+
+.text-lime {
+   color: var(--lime);
+}
+.text-slate-900 {
+   color: var(--slate-900);
+}
+.text-slate-700 {
+   color: var(--slate-700);
+}
+.text-slate-500 {
+   color: var(--slate-500);
+}
+.text-slate-300 {
+   color: var(--slate-300);
+}  
+.text-slate-100 {
+   color: var(--slate-100);
+}  
+.text-white {
+   color: var(--white);
+}
+.text-red {
+   color: var(--red);
+}
+
+.bg-lime {
+   background-color: var(--lime);
+}
+ 
+
+.bg-slate-900 {
+   background-color: var(--slate-900);
+}
+.bg-slate-700 {
+   background-color: var(--slate-700);
+}
+.bg-slate-500 {
+   background-color: var(--slate-500);
+}
+.bg-slate-300 {
+   background-color: var(--slate-300);
+}
+.bg-slate-100 {
+   background-color: var(--slate-100);
+}  
+.bg-white {
+   background-color: var(--white);
+}
+.bg-red {
+   background-color: var(--red);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a{
+   text-decoration: none;
+   color: var(--slate-700);
+}
+
+input {
+   border: 1px solid var(--slate-100);
+}
+
+span {
+   background: none;
+   background: var(--white);
+   border-radius: 4px;
+   border: 1px solid var(--slate-100);
+}
+.vh-75 {
+  height: 75vh;
+}
+.w-15 {
+   width: 15%;
+}
+.w-20 {
+   width: 20%;
+}
+.w-25 {
+   width: 25%;
+}
+.w-35 {
+   width: 35%;
+}
+
+.bg-slate-900 {
+   background-color: var(--slate-900);
+}
+
+ 
+
+input {
+   border: none;
+   border-radius: 16px;
+}
+
+.border-none {
+   border: none;
+}
+
+.border-top {
+   border-top: 50% solid var(--lime);
+}
+
+.textPreset1 {
+   font-size: 56px;
+   line-height: 125%;
+   letter-spacing: -1px;
+   font-weight: bold;
+}
+
+.textPreset2 {
+   font-size: 24px;
+   line-height: 125%;
+   letter-spacing: -1px;
+   font-weight: bold;
+}
+
+
+
+.textPreset3 {
+   font-size: 18px;
+   line-height: 125%;
+   letter-spacing: -1px;
+   font-weight: bold;
+
+}
+
+.textPreset4 {
+   font-size: 16px;
+   line-height: 150%;
+   letter-spacing: 0px;
+   font-weight:normal;
+}
+
+.textPreset5 {
+   font-size: 14px;
+   line-height: 150%;
+   letter-spacing: 0px;
+   font-weight:normal;
+}
+
+.input-group:focus-within {
+    color: #212529;
+    background-color: #fff;
+    border-color: var(--lime);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem var(--lime);
+    z-index: 3;
+    border-radius: .25rem;
+}
+
+ 
+.hide {
+   display: none;
+}
+ 
+ .show {
+   display: block;
+ }
+
+.spacing500-t{
+margin-top: var(--fiveH);
+}
+
+.spacing500-l{
+margin-left: var(--fiveH);
+}
+
+.spacing500-b{
+margin-bottom: var(--fiveH);
+}
+
+.spacing500-r{
+margin-right: var(--fiveH);
+}
+
+.spacing400-t{
+margin-top: var(--fourH);
+}
+
+.spacing400-l{
+margin-left: var(--fourH);
+}
+
+.spacing400-b{
+margin-bottom: var(--fourH);
+}
+
+.spacing400-r{
+margin-right: var(--fourH);
+}
+
+.spacing300-t{
+margin-top: var(--threeH);
+}
+
+.spacing300-l{
+margin-left: var(--threeH);
+}
+
+.spacing300-b{
+margin-bottom: var(--threeH);
+}
+
+.spacing300-r{
+margin-right: var(--threeH);
+}
+.spacing200-t{
+margin-top: var(--twoH);
+}
+
+.spacing200-l{
+margin-left: var(--twoH);
+}
+
+.spacing200-b{
+margin-bottom: var(--twoH);
+}
+
+.spacing200-r{
+margin-right: var(--twoH);
+}
+
+.spacing150-t{
+margin-top: var(--oneFh);
+}
+
+.spacing150-l{
+margin-left: var(--oneFh);
+}
+
+.spacing150-b{
+margin-bottom: var(--oneFh);
+}
+
+.spacing150-r{
+margin-right: var(--oneFh);
+}
+
+.spacing100-t{
+margin-top: var(--oneH);
+}
+
+.spacing100-l{
+margin-left: var(--oneH);
+}
+
+.spacing100-b{
+margin-bottom: var(--oneH);
+}
+
+.spacing100-r{
+margin-right: var(--oneH);
+}
+
+ .calculate-btn {
+   background-color: var(--lime);
+   border-radius: 24px;
+   font-weight: bold;
+   width: 327px;
+   height: 56px;
+   border: none;
+
+ }
+
+ .bg-white {
+   background-color: var(--white);
+ }
+
+@media (width > 700px) {
+.rounded-column {
+  border-radius:  0px 0px 24px 24px; /* Adjust the value as needed */
+}
+}
+ 
+ @media (min-width: 745px) and (max-width: 2000px) {
+  .rounded-column {
+    border-radius: 0px 24px 16px 80px;
+  }
+  .mt-8 {
+    margin-top: 8rem;
+  }
+
+  .px-24 {
+    padding: 0 24px;
+  }
+}
+
+.custom-dark-border {
+  background-color: #02043c; /* Very dark background */
+  border-top: 5px solid #A3FF12; /* Increase the height of the top border */
+  border-radius: 16px 16px 0 0; /* Optional: add rounded corners */
+  margin: 20px;
+  
+}
+
